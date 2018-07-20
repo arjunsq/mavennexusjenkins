@@ -1,4 +1,4 @@
-MemorySlack
+# MemorySlack
 
-# System service that alerts memory usage spikes on slack.
+System service that alerts memory usage spikes on slack.
 
