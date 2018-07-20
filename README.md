@@ -1,4 +1,4 @@
-# MemorySlack
+First
 
-System service that alerts memory usage spikes on slack.
+# The super project.
 
