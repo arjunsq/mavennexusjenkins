@@ -8,15 +8,16 @@
   <name>mavennexuxjenkinsfirst</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
-    <repository>
-      <id>Intermediate-Release</id>
-      <name>Intermediate-Release</name>
-      <url>http://localhost:8081/repository/mavennexusjenkins-releases/</url>
-    </repository>
     <snapshotRepository>
-      <id>Intermediate-Snapshot_Release</id>
+      <id>nexus-snapshots</id>
       <name>Intermediate-Snapshot_Release</name>
       <url>http://localhost:8081/repository/mavennexusjenkins-snapshots/</url>
     </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <name>Intermediate-Release</name>
+      <url>http://localhost:8081/repository/mavennexusjenkins-releases/</url>
+    </repository>
+
   </distributionManagement>
 </project>
