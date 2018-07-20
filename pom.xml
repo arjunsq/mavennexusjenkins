@@ -4,20 +4,30 @@
   <groupId>com.qburst.arjun</groupId>
   <artifactId>mavennexuxjenkinsfirst</artifactId>
   <packaging>jar</packaging>
-  <version>VERSION_1.0.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <name>mavennexuxjenkinsfirst</name>
   <url>http://maven.apache.org</url>
+
+  <repositories>
+    <repository>
+      <id>maven-public</id>
+      <url>http://localhost:8081/repository/maven-public/</url>
+    </repository>
+  </repositories>
+
   <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <name>Intermediate-Snapshot_Release</name>
+      <name>nexus-snapshots</name>
       <url>http://localhost:8081/repository/mavennexusjenkins-snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>nexus-releases</id>
-      <name>Intermediate-Release</name>
+      <name>nexus-snapshots</name>
       <url>http://localhost:8081/repository/mavennexusjenkins-releases/</url>
     </repository>
-
   </distributionManagement>
+
+
 </project>
+
