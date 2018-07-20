@@ -23,7 +23,7 @@
     </snapshotRepository>
     <repository>
       <id>nexus-releases</id>
-      <name>nexus-snapshots</name>
+      <name>nexus-releases</name>
       <url>http://localhost:8081/repository/mavennexusjenkins-releases/</url>
     </repository>
   </distributionManagement>
