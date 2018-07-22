@@ -9,6 +9,13 @@
   <url>http://maven.apache.org</url>
 
   <repositories>
+
+    <repository>
+        <id>nexus</id>
+        <name>nexus</name>
+        <url>http://localhost:8081/repository/url>
+    </repository>
+
     <repository>
       <id>maven-public</id>
       <url>http://localhost:8081/repository/maven-public/</url>
