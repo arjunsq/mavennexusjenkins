@@ -19,12 +19,12 @@
     <snapshotRepository>
       <id>nexus-snapshots</id>
       <name>nexus-snapshots</name>
-      <url>http://localhost:8081/repository/mavennexusjenkins-snapshots/</url>
+      <url>http://localhost:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>nexus-releases</id>
       <name>nexus-releases</name>
-      <url>http://localhost:8081/repository/mavennexusjenkins-releases/</url>
+      <url>http://localhost:8081/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
 
