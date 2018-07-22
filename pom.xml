@@ -13,7 +13,7 @@
     <repository>
         <id>nexus</id>
         <name>nexus</name>
-        <url>http://localhost:8081/repository/url>
+        <url>http://localhost:8081/repository/maven-central/</url>
     </repository>
 
     <repository>
