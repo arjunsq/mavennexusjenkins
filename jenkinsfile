@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+    tools { 
+        maven 'default maven' 
+
+    }
+    stages {
+        stage ('Clean Compile') {
+            steps {
+                sh 'mvn --settings settings.xml clean compile'
+            }
+        }
+
+        stage ('Package') {
+            steps {
+                sh 'mvn --settings settings.xml package'
+            }
+        }
+
+	stage ('Deploy') {
+            steps {
+                sh 'mvn --settings settings.xml deploy'
+            }
+        }
+    }
+}
