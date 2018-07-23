@@ -1,7 +1,7 @@
 package arjun;
 
 
-class App 
+public class App 
 {
     public void first()
     {
