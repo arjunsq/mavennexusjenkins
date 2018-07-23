@@ -15,14 +15,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
   <repositories>
-
-    <repository>
-        <id>nexus</id>
-        <name>nexus</name>
-        <url>http://localhost:8081/repository/maven-central/</url>
-    </repository>
-
     <repository>
       <id>maven-public</id>
       <url>http://localhost:8081/repository/maven-public/</url>
