@@ -18,8 +18,8 @@
   
   <repositories>
     <repository>
-      <id>maven-public</id>
-      <url>http://localhost:8081/repository/maven-public/</url>
+      <id>maven-group</id>
+      <url>http://localhost:8081/repository/maven-group/</url>
     </repository>
   </repositories>
 
